@@ -1,0 +1,22 @@
+.footer {
+  height: 75px;
+  background-color:  rgba(4,28,100,0.6);
+  margin-top: 10px;
+}
+
+#socials a{
+  font-size: 50px;
+  margin: 0px auto;
+  color: #4de2fb;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#socials a:hover{
+  text-shadow: 0 0 3px white;
+}
+
+.inline li{
+  list-style: none;
+  display: inline;
+}

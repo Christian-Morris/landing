@@ -1,0 +1,13 @@
+.hero {
+  background-color: rgba(4,28,100,0.4);
+  display:flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+}
+
+.hero img {
+  max-height: 100px;
+  border-radius: 50%;
+}

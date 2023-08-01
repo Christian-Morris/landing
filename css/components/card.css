@@ -1,0 +1,99 @@
+.card-category, .card-product,.card-trip{
+  display: flex;
+  margin: 20px 0;
+  box-shadow: 0 0 8px #4de2fb ;
+}
+
+.card{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.card-category{
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  height: 200px;
+  width: 270px;
+  background-size: 92%;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.card-category:hover{
+  box-shadow: 0 0 14px #4de2fb ;
+}
+
+.card-product{
+  width: 75%;
+  justify-content: flex-start;
+  margin: 0 auto;
+  box-shadow: none;
+  padding: 10px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 175px;
+  object-fit: cover;
+}
+
+.card-product h3 {
+  margin: 0;
+}
+.card-product p {
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+}
+
+.card-product-infos{
+  padding: 16px;
+}
+
+.card-trip{
+flex-direction: column;
+}
+
+.card-trip img{
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px 10px;
+  padding: 16px;
+}
+
+.card-trip-info h3{
+  margin: 0;
+}
+
+.card-trip-info p{
+  font-size: 18px;
+  color: lightgrey;
+  margin:0;
+}
+
+.card-trip-info li{
+  font-size: 18px;
+  color: lightgrey;
+  margin:0;
+}
+
+.card-info-trip-parent{
+  position: relative;
+}
+
+.card-info-trip-child{
+  position: absolute;
+  bottom: 50px;
+  right: 33px;
+}
